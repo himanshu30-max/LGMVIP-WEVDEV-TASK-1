@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    
+}
+.top{
+    background-image: url(../images/mountain.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+    
+}
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    z-index: 9;
+    transition: all 0.5s ease;
+    
+}
+
+.logo{
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 10px;
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: uppercase;
+     border-radius: 3px;
+    font-weight: lighter;
+    
+}
+  a:hover{
+    color: gold;
+    transition: .5s;
+}
+.check{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#cek{
+    display: none;
+}
+.max-width{
+    padding: 100px 210px;
+}
+.text1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.text2{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.text3{
+    margin: 20px 0px;
+    color: #ffffff;
+    width: 50%;
+    font-weight: lighter;
+
+}
+.btn-1{
+    color: black;
+    background-color: gold;
+    padding: 6px;
+    border-radius: 5px
+}
+.btn-2{
+    color: white;
+    background: purple;
+    padding: 6px;
+    border-radius: 5px
+}
+.abt{
+    margin: auto;
+    
+}
+
+.max-width-about{
+    padding: 30px 200px;
+    margin: auto;
+}
+.max-width-about button:hover{
+    color: #fff;
+    background: purple;
+}
+.main-heading{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.content1{
+    width: 50%;
+    margin-left: 50px;
+    
+}
+span{
+    float: right;
+    color: #D3D3D3;
+    margin-right: 200px;
+}
+.about-us{
+    margin: 20px;
+    display: inline-block;
+    
+}
+.about1{
+    display: inline-block;
+    width: 33%;
+    
+}
+.about2{
+    display: inline-block;
+    width: 33%;
+}
+.about3{
+    display: inline-block;
+    width: 33%;
+}
+.aboutp{
+    width: 60%;
+    margin: 10px;
+}
+.about-us span{
+    border-radius: 360px;
+    background-color: purple;
+    padding: 10px;
+    color: #ffffff;
+    margin-block: 10px;
+}
+ .about-us h4 {
+    padding: 10px;
+}
+.about-us button{
+    margin: 10px;
+}
+hr{
+    width: 85%;
+    margin: auto;
+    
+    
+}
+.max-pro{
+    margin: auto;
+    width: 85%;
+    
+}
+.max-pro div{
+    width: 33%;
+    display: inline-block;
+    padding: 15px
+}
+.prop{
+    width: 80%;
+    margin: 10px 0px 10px 15px;
+}
+.max-pro button{
+    margin:  0px 0px 50px 15px;
+}
+.max-pro img{
+    height: 170px;
+    width: 300px;
+}
+ h4{
+    margin: 10px 0px 10px 15px;
+}
+.max-pro button:hover{
+    color: #000;
+    background: gold;
+}
+.max-price{
+    margin: auto;
+    width: 85%;
+    
+
+}
+.max-price div{
+    width: 33%;
+    display: inline-block;
+    padding:  20px 85px 30px 85px;
+    
+}
+.pricep{
+    
+    margin-bottom: 15px;
+}
+.max-price button{
+    padding: 6px 15px;
+    margin-left: 10px;
+}
+.max-price button:hover{
+    color: #fff;
+    background: purple;
+}
+.price1 h4{
+
+    padding-left: 15px;
+}
+.max-width-vedio{
+    margin: auto;
+    width: 100%;
+    background-color: #CF9FFF;
+}
+.max-width-vedio div{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.max-width-vedio h1{
+    color: #fff;
+}
+.max-team{
+    margin: auto;
+    width: 85%;
+}
+.max-team div{
+    display: inline-block;
+    width: 33%;
+    padding-left: 70px;
+}
+.max-team img{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 20px;
+}
+.max-team h3{
+    
+    text-align: center;
+    margin-right: 70px;
+}
+.max-team h5{
+    color: gray;
+    text-align: center;
+    margin-right: 70px;
+    
+    padding-top: 7px;
+}
+ .max-life{
+    margin: 30px 0px 0px 0px;
+
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+ 
+  .numbertext {
+    color: #000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .max-signup{
+      background-image: url(../images/bridge3.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .max-signup h1{
+      color: #000;
+  }
+  .sign input{
+      padding: 10px;
+      margin-left: 400px;
+  }
+  .signup{
+      padding: 7px;
+      margin: 10px 0px 10px 600px;
+
+  }
+  .signup button:hover{
+      color: #fff;
+      background: purple;
+  }
+  .max-blog{
+    margin: auto;
+    width: 85%;
+    
+}
+.max-blog div{
+    width: 33%;
+    display: inline-block;
+    padding: 15px
+}
+.blogp{
+    width: 80%;
+    margin: 10px 0px 10px 15px;
+}
+.max-blog button{
+    margin:  0px 0px 50px 15px;
+}
+.max-blog img{
+    height: 170px;
+    width: 300px;
+}
+ .max-blog h4{
+    margin: 10px 0px 10px 15px;
+}
+.max-blog button:hover{
+    color: #000;
+    background: gold;
+}
+.max-contact{
+    display: flex;
+}
+
+.map{
+    width: 50%;
+    height: 550px;
+}
+.form{
+    width: 50%;
+    height: 550px;
+    background-color: #FFFF99;
+}
+.form label{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px;
+    display: block;
+}
+.form input{
+    height: 30px;
+}
+.form1{
+    margin-left: 50px;
+}
+.send{
+    width: 240px;
+    height: 30px;
+    color: #f2f2f2;
+    background-color: purple;
+    text-align: center;
+    margin:10px 0px 10px 50px;
+    cursor: pointer;
+}
+.send:hover{
+    color: #000;
+    background-color: gold;
+}
+.max-foot{
+    
+    width: 100%;
+    background-color: #ffffff;
+    height: 140px;
+    padding: 20px;
+
+}
+.max-foot div{
+    width: 33%;
+    display: inline-block;
+   
+}
+.footerp{
+    font-weight: 400;
+    margin-left: 15px;
+}
+.address{
+    padding-left: 200px;
+}
+.follow{
+    padding-left: 150px;
+}
+.other{
+    padding-right: 50px;
+}
+
+.follow i{
+    padding: 10px;
+}
+.create{
+    font-weight: 400;
+    color: #000;
+    padding: 10px;
+    margin-right: 480px;
+}
+
+
+
+
+
+
+
+@media (max-width:1030px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+}
+@media (max-width:959px){
+    .check{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        text-align: center;
+        top: 80px;
+        left: 0px;
+        transition: all.5s;
+
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+     a:hover{
+        background: none;
+        color: #0082e6;
+    }
+    #cek:checked ~ ul{
+        
+        display: none;
+    }
+}
